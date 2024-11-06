@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background: linear-gradient(135deg, #f8e5b0, #e9d4a7, #e5c896, #d6b384);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #3e3e3e;
+    font-family: Arial, sans-serif;
+}
+
+p, h1 {
+    color: #5a4b3e;
+}
 
 main {
     height: 100vh;
@@ -20,6 +32,12 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    background: linear-gradient(135deg, rgba(240, 220, 180, 0.95), rgba(235, 210, 165, 0.9), rgba(220, 200, 155, 0.9));
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 10px;
+    border: 1px solid #d3b992;
+    
 }
 
 .estrofe {
@@ -48,7 +66,7 @@ p {
         font-size: 24px;
     }
     p {
-        font-size: 18px;
+        font-size: 25px;
     }
 }
 
@@ -57,7 +75,7 @@ p {
         font-size: 22px;
     }
     p {
-        font-size: 16px;
+        font-size: 20px;
     }
     .container {
         padding: 10px;
