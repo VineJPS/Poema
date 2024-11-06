@@ -18,16 +18,16 @@ p, h1 {
 
 main {
     height: 100vh;
-    padding: 30px;
+    padding: 15px;
     display: flex;
-    align-items: center;
+    padding-top: 50px;
     justify-content: center;
 }
 
 .container {
     margin: auto;
     width: 95%;
-    max-width: 800px; /* Limita a largura máxima em telas grandes */
+    max-width: 800px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,8 +43,8 @@ main {
 .estrofe {
     text-align: center;
     margin-bottom: 20px;
-    padding: 10px;
-    width: 100%; /* Ocupe toda a largura disponível */
+    padding: 5px;
+    width: 100%; 
 }
 
 h1 {
