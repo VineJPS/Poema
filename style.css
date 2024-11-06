@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(135deg, #f8e5b0, #e9d4a7, #e5c896, #d6b384);
     background-size: cover;
@@ -10,77 +11,70 @@ body {
     background-attachment: fixed;
     color: #3e3e3e;
     font-family: Arial, sans-serif;
-}
-
-p, h1 {
-    color: #5a4b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 main {
-    height: 100vh;
+    width: 100%;
     padding: 15px;
     display: flex;
-    padding-top: 15px;
+    align-items: center;
     justify-content: center;
 }
 
 .container {
-    margin: auto;
-    width: 95%;
-    max-width: 800px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
     background: linear-gradient(135deg, rgba(240, 220, 180, 0.95), rgba(235, 210, 165, 0.9), rgba(220, 200, 155, 0.9));
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.1) inset;
     border-radius: 10px;
     border: 1px solid #d3b992;
-    
-}
-
-.estrofe {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 5px;
-    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 h1 {
     font-size: 28px;
-    padding: 15px;
+    margin-bottom: 15px;
     text-align: center;
+}
+
+.estrofe {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 5px;
 }
 
 p {
     font-size: 20px;
     line-height: 1.6;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    main {
-        padding: 15px;
-    }
     h1 {
         font-size: 24px;
     }
     p {
-        font-size: 25px;
+        font-size: 18px;
+    }
+    .container {
+        padding: 15px;
     }
 }
 
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 10px;
     }
     p {
-        font-size: 20px;
-    }
-    main{
-        width: 100%;
+        font-size: 16px;
     }
     .container {
         padding: 10px;
-        height: 550px;
     }
 }
