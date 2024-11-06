@@ -18,7 +18,7 @@ p, h1 {
 
 main {
     height: 100vh;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,7 @@ p {
 
 @media screen and (max-width: 768px) {
     main {
-        padding: 25px;
+        padding: 15px;
     }
     h1 {
         font-size: 24px;
