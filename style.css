@@ -10,6 +10,8 @@ body {
     background-attachment: fixed;
     color: #3e3e3e;
     font-family: Arial, sans-serif;
+    background-image: url('b.jpg');
+    
 }
 
 p, h1 {
@@ -80,6 +82,7 @@ p {
     main{
         width: 100%;
     }
+    
     .container {
         padding: 10px;
         height: 550px;
